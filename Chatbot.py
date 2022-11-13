@@ -72,7 +72,7 @@ if __name__ == '__main__':
     pr = PreprocessSents(
         tokenizer_file_path=r"tokenizer.pkl",
         label_encoder_file_path=r"label_encoder.pkl",
-        intents_json_file_path=r"C:\Users\table\PycharmProjects\pajtong\ChatBot\intents3.json"
+        intents_json_file_path=r"intents3.json"
     )
     model = load_model(r"ChatBotIntentsModel2.h5")
     print("Started...")
